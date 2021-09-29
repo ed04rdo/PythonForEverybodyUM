@@ -3,7 +3,6 @@ import urllib.request, urllib.parse, urllib.error
 import ssl
 from bs4 import BeautifulSoup                           # python library for pulling data out of HTML and XML files
 
-
 # ignore SSL certificate errors
 ctx = ssl.create_default_context()
 ctx.check_hostname = False

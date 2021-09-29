@@ -3,7 +3,6 @@
     extract the href= vaues from the anchor tags, scan for a tag that is in a particular position relative to 
     the first name in the list, follow that link and repeat the process n times and report the last name found. 
 """
-
 import urllib.request, urllib.error, urllib.parse        
 import ssl                                              
 from bs4 import BeautifulSoup                               # python library for pulling data out of HTML and XML files

@@ -1,0 +1,10 @@
+<people>                            # complex element
+    <person>                        # complex element
+        <name>Chuck</name>          # simple  element
+        <phone>1234567890</phone>   # simple  element
+    </person>                       # complex element
+    <person>                        # complex element
+        <name>Noah</name>           # simple  element
+        <phone>0987654321</phone>   # simple  element
+    </person>                       # complex element
+</people>                           # complex element
